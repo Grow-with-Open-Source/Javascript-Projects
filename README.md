@@ -23,7 +23,7 @@ Welcome to **Javascript-Projects**, one of the best ways to introduce the world 
 
 Our mission is to empower newcomers, providing them with a welcoming environment to learn and grow in the open-source community** offers a curated collection of JavaScript-based projects that are both fun to work on and highly educational. Through hands-on experience and guidance from our dedicated team of maintainers, you'll gain the skills and confidence to contribute to larger projects with ease. We can't wait to see what you'll bring to the open-source table – so dive in, explore, and start your open-source adventure today!
 
-[![page-cover](assets/page-cover.png)](https://grow-with-open-source.github.io/Javascript-Projects/)
+[![page-cover](assets/img/page-cover.png)](https://grow-with-open-source.github.io/Javascript-Projects/)
 
 All your work details, including the path to your work, will be displayed on the Jekyll-based pages that are deployed using GitHub Pages. So, we expect quality work from you so that everyone can view your work with ease. This repo will not only introduce open-source contributions but also be one of the best platforms to showcase your skills and learn new skills from other projects. Thus, you'll be learning and teaching at the same time.
 
