@@ -1,0 +1,49 @@
+name: javascript-linter
+
+on:
+  pull_request:
+    branches: [main]
+    paths: ['**.js', '**.jsx']
+
+jobs:
+  eslint:
+    name: eslint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checking out the repo
+      uses: actions/checkout@v4.1.0
+
+    - name: Setting up Node.js environment
+      uses: actions/setup-node@v3.8.1
+      with:
+        node-version: 18
+
+    - name: Setting up eslint
+      run: |
+        npm init -y
+        npm install eslint --save-dev
+        touch .eslintrc.json
+
+    - name: Adding eslint configurations
+      uses: DamianReeves/write-file-action@v1.2
+      with:
+        path: .eslintrc.json
+        write-mode: overwrite
+        contents: |
+          {
+            "root": true,
+            "env": {
+              "browser": true,
+              "es2021": true,
+              "node": true
+            },
+            "extends": "eslint:recommended",
+            "parserOptions": {
+              "ecmaVersion": "latest",
+              "sourceType": "module"
+            }
+          }
+
+    - name: eslint
+      run: |
+        npx eslint ./ */**.js
