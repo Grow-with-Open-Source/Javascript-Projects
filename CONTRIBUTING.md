@@ -43,8 +43,9 @@ So, before you jump right into your code editor and start working on your projec
   > ├── _includes
   > |       └── head-custom.html
   > ├── assets
-  > |       ├── page-cover.png
-  > |       └── favicon.icon
+  > |       └── img
+  > |           ├── page-cover.png
+  > |           └── favicon.icon
   > ├── index.md
   > ├── _config.yml
   > ├── .gitignore
