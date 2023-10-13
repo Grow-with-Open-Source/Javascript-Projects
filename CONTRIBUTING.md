@@ -47,6 +47,7 @@ So, before you jump right into your code editor and start working on your projec
   > |       └── favicon.icon
   > ├── index.md
   > ├── _config.yml
+  > ├── .gitignore
   > ├── LICENSE
   > ├── CODE_OF_CONDUCT.md
   > ├── CONTRIBUTING.md
