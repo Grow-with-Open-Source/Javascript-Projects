@@ -1,8 +1,8 @@
-name: Deploy
+name: deploy
 
 on:
   workflow_run:
-    workflows: [Update Contributor Details]
+    workflows: [update-contributor-details]
     types: [completed]
 
   workflow_dispatch:
