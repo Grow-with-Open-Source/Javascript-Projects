@@ -92,6 +92,8 @@ def main():
 		if ' ' in demo_path:
 			demo_path = '%20'.join(demo_path.split())
 		demo_path_output = f'<a href="{demo_path}" title="view the result of {title}">/{REPO_NAME}/{title}/</a>'
+		if demo_path == 'root' or demo_path == '{init}':
+			demo_path_output = f'<a href="{demo_path}" title="view the result of {title}">/{REPO_NAME}/</a>'
 
 		# Appending all data together
 		updated_lines.append('\t<tr align="center">\n')
