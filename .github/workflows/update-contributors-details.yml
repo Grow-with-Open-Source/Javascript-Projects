@@ -1,4 +1,4 @@
-name: Update Contributor Details
+name: update-contributor-details
 
 on:
   pull_request_target:
@@ -14,6 +14,7 @@ env:
 
 jobs:
   update-by-pr:
+    if: ${{ github.event.pull_request.title != 'init' }}
     runs-on: ubuntu-latest
 
     permissions:
@@ -25,14 +26,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-          
+
       - name: Setup Python
         uses: actions/setup-python@v4.7.1
-          
+
       - name: Getting PR details
         run: |
           touch pr.json
-          gh pr view $PR_NUMBER --json author,url,files > pr.json 
+          gh pr view $PR_NUMBER --json author,url,files > pr.json
 
       - name: Updating log file
         run: |
@@ -42,7 +43,7 @@ jobs:
           fi
           python .github/scripts/update_contributors_log.py
           cat .github/data/contributors-log.json
-          
+
       - name: Updating index.md file
         run: |
           python .github/scripts/update_index_md.py
