@@ -2,10 +2,8 @@ name: update-contributor-details
 
 on:
   pull_request_target:
-    types:
-      - closed
-    branches:
-      - main
+    types: [closed]
+    branches: [main]
 
 env:
   REPO_NAME: ${{ github.repository }}
