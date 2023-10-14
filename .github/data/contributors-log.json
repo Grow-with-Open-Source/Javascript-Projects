@@ -7,5 +7,14 @@
       "1"
     ],
     "demo-path": "https://github.com/Grow-with-Open-Source/Javascript-Projects"
+  },
+  "root": {
+    "contributor-name": [
+      "gauravbhaskar080"
+    ],
+    "pull-request-number": [
+      "2"
+    ],
+    "demo-path": "https://github.com/Grow-with-Open-Source/Javascript-Projects/"
   }
 }

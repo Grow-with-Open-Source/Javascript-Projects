@@ -7,6 +7,10 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 <div align="center">
 
 <!-- TABLE BEGINS -->
+| Project Title | Contributor Names | Pull Requests | Demo |
+| --- | --- | --- | --- |
+| init | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#1](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/1 "visit pr \#1") | [/Grow-with-Open-Source/Javascript-Projects/init/](https://github.com/Grow-with-Open-Source/Javascript-Projects "view the result of init") |
+| root | [gauravbhaskar080](https://github.com/gauravbhaskar080 "goto gauravbhaskar080 profile") | [#2](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/2 "visit pr \#2") | [/Grow-with-Open-Source/Javascript-Projects/root/](https://github.com/Grow-with-Open-Source/Javascript-Projects/ "view the result of root") |
 <!-- TABLE ENDS -->
 
 </div>
