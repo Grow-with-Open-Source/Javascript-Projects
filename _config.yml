@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 title: 'Javascript-Projects'
 page_title: 'Jumpstart Open-Source with JavaScript'
 description: 'Start Your Open-Source Journey with JavaScript Projects'
-logo: '/assets/img/favicon.ico'
+logo: 'assets/img/favicon.ico'
 defaults:
   - scope:
       path: ''

@@ -26,7 +26,12 @@ jobs:
       - name: Setting up python environment
         uses: actions/setup-python@v4.7.1
       - name: Replace md table with HTML table
-        run: python .github/scripts/convert_to_html_tables.py
+        run: |
+          if [ -f ".github/data/contributors-log.json" ]; then
+            python .github/scripts/convert_to_html_tables.py
+          else
+            echo "contributors log is not present, proceeding to deploy anyway..."
+          fi
         env:
           REPO_NAME: ${{ github.repository }}
       - name: Setup Pages
