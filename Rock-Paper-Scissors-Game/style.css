@@ -1,0 +1,175 @@
+body {
+  background-color: #eec6c6; 
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #f9b4c2, #ffdb86); 
+  color: #ffffff;
+  position: relative;
+  min-height: 91.5vh;
+  margin: 0;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(ellipse at center, rgba(246, 231, 231, 0.813) 0%, rgba(0,0,0,0.9) 100%);
+  z-index: -1;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#computer-choice,
+#user-choice,
+#result {
+  color: #ff6f00;
+  font-weight: bold;
+  width: 10%;
+}
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.choice-container > div {
+  flex-basis: 45%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.button-container > button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff6f00;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container > button:hover {
+  background-color: #ff4d00;
+}
+
+.button-container > button > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.choice-container > div {
+  flex-basis: 45%;
+}
+
+.winner-container {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.result-text {
+  color: #333333; /* Default color for the result text */
+}
+
+.result-text.you-win {
+  color: #42b72a; /* Green color for winning */
+}
+
+.result-text.you-lose {
+  color: #c71e1e; /* Red color for losing */
+}
+
+.result-text.it-s-a-draw {
+  color: #333333; /* Default color for draw */
+}
+
+nav {
+  padding: 10px;
+  background-color: #ff8c00; /* Orange color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  color: #ffffff; /* Text color for better contrast */
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.button-container>img{
+  width: 10%;
+  margin: 0 10px;
+  cursor: pointer;
+
+}
+
+.logo{
+  width: 20%;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 98.7%;
+}
+
+#Rock , #Paper, #Scissors{
+  margin: 5%;
+} 
+
+#winner{
+  width: 5px;
+}
