@@ -14,7 +14,7 @@ env:
 
 jobs:
   update-by-pr:
-    if: ${{ github.event.pull_request.title != 'init' }}
+    if: ${{ github.event.pull_request.title != 'init' && github.event.pull_request.merged == true }}
     runs-on: ubuntu-latest
 
     permissions:
