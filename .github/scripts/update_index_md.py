@@ -89,7 +89,7 @@ def main():
 		if ' ' in demo_path:
 			demo_path = '%20'.join(demo_path.split())
 		demo_path_output = f'[/{REPO_NAME}/{title}/]({demo_path} "view the result of {title}")'
-		if demo_path == 'root' or demo_path == '{init}':
+		if title == 'root' or title == '{init}':
 			demo_path_output = f'[/{REPO_NAME}/]({demo_path} "view the result of {title}")'
 
 		# Appending all data together
