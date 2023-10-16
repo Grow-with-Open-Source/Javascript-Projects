@@ -7,5 +7,14 @@
       "1"
     ],
     "demo-path": "https://github.com/Grow-with-Open-Source/Javascript-Projects"
+  },
+  "Rock-Paper-Scissors-Game": {
+    "contributor-name": [
+      "gauravbhaskar080"
+    ],
+    "pull-request-number": [
+      "4"
+    ],
+    "demo-path": "Rock-Paper-Scissors-Game"
   }
 }
