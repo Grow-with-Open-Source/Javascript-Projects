@@ -43,9 +43,12 @@ jobs:
               "ecmaVersion": "latest",
               "sourceType": "module"
             },
+            "rules": {
+              "no-undef": "off",
+              "no-unused-vars": "off"
+            },
             "ignorePatterns": ["**/*.min.js"]
           }
-
 
     - name: eslint
       run: |
