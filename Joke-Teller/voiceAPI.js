@@ -1,4 +1,4 @@
-// VoiceRSS Javascript SDK
+// VoiceRSS Javascript SDK - VOICE API
 const VoiceRSS = {
     speech: function (e) {
         this._validate(e), this._request(e);
@@ -85,22 +85,34 @@ const VoiceRSS = {
     _getXHR: function () {
         try {
             return new XMLHttpRequest();
-        } catch (e) {}
+        } catch (e) {
+            console.error(e);
+        }
         try {
             return new ActiveXObject("Msxml3.XMLHTTP");
-        } catch (e) {}
+        } catch (e) {
+            console.error(e);
+        }
         try {
             return new ActiveXObject("Msxml2.XMLHTTP.6.0");
-        } catch (e) {}
+        } catch (e) {
+            console.error(e);
+        }
         try {
             return new ActiveXObject("Msxml2.XMLHTTP.3.0");
-        } catch (e) {}
+        } catch (e) {
+            console.error(e);
+        }
         try {
             return new ActiveXObject("Msxml2.XMLHTTP");
-        } catch (e) {}
+        } catch (e) {
+            console.error(e);
+        }
         try {
             return new ActiveXObject("Microsoft.XMLHTTP");
-        } catch (e) {}
+        } catch (e) {
+            console.error(e);
+        }
         throw "The browser does not support HTTP request";
     },
 };
