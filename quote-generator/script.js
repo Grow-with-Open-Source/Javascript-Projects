@@ -1,3 +1,4 @@
+// This file conytains the JS code for fetching the quotes from API
 const quoteContainer = document.getElementById("quote-container");
 const quoteText = document.getElementById("quote");
 const authorText = document.getElementById("author");
