@@ -25,5 +25,14 @@
       "6"
     ],
     "demo-path": "E-commerce%20website"
+  },
+  "quote-generator": {
+    "contributor-name": [
+      "skyHunter-18"
+    ],
+    "pull-request-number": [
+      "11"
+    ],
+    "demo-path": "quote-generator"
   }
 }
