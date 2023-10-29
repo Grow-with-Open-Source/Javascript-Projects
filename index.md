@@ -9,8 +9,9 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 <!-- TABLE BEGINS -->
 | Project Title | Contributor Names | Pull Requests | Demo |
 | --- | --- | --- | --- |
-| {init} | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#1](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/1 "visit pr \#1") | [/Grow-with-Open-Source/Javascript-Projects/{init}/](https://github.com/Grow-with-Open-Source/Javascript-Projects "view the result of {init}") |
+| {init} | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#1](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/1 "visit pr \#1") | [/Grow-with-Open-Source/Javascript-Projects/](https://github.com/Grow-with-Open-Source/Javascript-Projects "view the result of {init}") |
 | Rock-Paper-Scissors-Game | [gauravbhaskar080](https://github.com/gauravbhaskar080 "goto gauravbhaskar080 profile") | [#4](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/4 "visit pr \#4") | [/Grow-with-Open-Source/Javascript-Projects/Rock-Paper-Scissors-Game/](Rock-Paper-Scissors-Game "view the result of Rock-Paper-Scissors-Game") |
+| E-commerce website | [rahulch-1](https://github.com/rahulch-1 "goto rahulch-1 profile") | [#6](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/6 "visit pr \#6") | [/Grow-with-Open-Source/Javascript-Projects/E-commerce website/](E-commerce%20website "view the result of E-commerce website") |
 <!-- TABLE ENDS -->
 
 </div>

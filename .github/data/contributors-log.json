@@ -16,5 +16,14 @@
       "4"
     ],
     "demo-path": "Rock-Paper-Scissors-Game"
+  },
+  "E-commerce website": {
+    "contributor-name": [
+      "rahulch-1"
+    ],
+    "pull-request-number": [
+      "6"
+    ],
+    "demo-path": "E-commerce%20website"
   }
 }
