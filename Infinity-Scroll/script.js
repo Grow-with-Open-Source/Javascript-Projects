@@ -1,3 +1,4 @@
+// This file contains JS files for fetching images from the Unsplash API
 const imageContainer = document.getElementById("image-container");
 const loader = document.getElementById("loader");
 
