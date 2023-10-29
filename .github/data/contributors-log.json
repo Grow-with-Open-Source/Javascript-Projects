@@ -34,5 +34,14 @@
       "11"
     ],
     "demo-path": "quote-generator"
+  },
+  "Infinity-Scroll": {
+    "contributor-name": [
+      "skyHunter-18"
+    ],
+    "pull-request-number": [
+      "12"
+    ],
+    "demo-path": "Infinity-Scroll"
   }
 }
