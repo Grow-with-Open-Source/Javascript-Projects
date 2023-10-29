@@ -39,7 +39,6 @@ function newQuote() {
     }
     // Set quote, Hide Loader
     quoteText.textContent = quote.text;
-    console.log(quote);
     complete();
 }
 
@@ -51,10 +50,9 @@ async function getQuotes() {
         const response = await fetch(apiUrl);
         apiQuotes = await response.json();
         newQuote();
-        // console.log(apiQuotes);
-        // console.log(apiQuotes[4]);
     } catch (error) {
         // Catch error here
+        console.error(error);
     }
 }
 
@@ -67,34 +65,7 @@ function tweetQuote() {
     window.open(twitterUrl, "_blank");
 }
 
-// function copyToClipboard() {
-//     let copyText = quoteText.textContent + " - " + authorText.textContent;
-//     navigator.clipboard.writeText(copyText);
-//     alert("Copied " + copyText);
-// }
-
 // Event Listners
 newQuoteBtn.addEventListener("click", newQuote);
 
 twitterBtn.addEventListener("click", tweetQuote);
-
-// // Function to get local quotes
-// function getLocalQuotes() {
-//     const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
-//     console.log(quote);
-//     quoteText.textContent = quote.text;
-//     // Check if author field is blank
-//     if (!quote.author) {
-//         authorText.textContent = "Unknown";
-//     } else {
-//         authorText.textContent = quote.author;
-//     }
-
-//     // Check quote length
-//     if (quote.text.length > 50) {
-//         quoteText.classList.add("long-quote");
-//     } else {
-//         quoteText.classList.remove("long-quote");
-//     }
-// }
-// getLocalQuotes();
