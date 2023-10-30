@@ -30,12 +30,12 @@ All your work details, including the path to your work, will be displayed on the
 
 ## Contribution
 
-Hey there, fellow developer !!!... I'm happy to see you are interested in contributing to this repo. As this is an open-source repo containing a collection of javascript-based projects, you're always welcome to showcase your learning & implementation efforts. Since the projects are built using JavaScript, you can design static web pages *(i.e., simple HTML pages with or without CSS)* to showcase your project functionality that is hosted using GitHub Pages. As your work is being hosted live, we expect you to make some quality contributions so that others can learn and appreciate your work.
+Hey there, fellow developer !!!... I'm happy to see that you are interested in contributing to this repo. As this is an open-source repo containing a collection of javascript-based projects, you're always welcome to showcase your learning & implementation efforts. Since the projects are built using JavaScript, you can design static web pages *(i.e., simple HTML pages with or without CSS)* to showcase your project functionality that is hosted using GitHub Pages. As your work is being hosted live, we expect you to make some quality contributions so that others can learn and appreciate your work.
 
 > [!IMPORTANT]
 > Make sure to check the [CONTRIBUTING.md](https://github.com/Grow-with-Open-Source/Javascript-Projects/blob/main/CONTRIBUTING.md "goto CONTRIBUTING.md") to understand the rules, file structure and step-by-step guide for contribution.
 
-- **Step 1:** Make sure you have required tools within you local machine *(like *git, vs code, node.js and so on)*.
+- **Step 1:** Make sure you have the required tools within you local machine *(like *git, vs code, node.js and so on)*.
 - **Step 2:** Now start by [forking](https://github.com/Grow-with-Open-Source/Javascript-Projects/fork "let's fork the repo") the repository.
 - **Step 3:** Clone the forked repository to your local machine.
   ```bash
