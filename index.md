@@ -16,7 +16,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | Infinity-Scroll | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#12](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/12 "visit pr \#12") | [/Grow-with-Open-Source/Javascript-Projects/Infinity-Scroll/](Infinity-Scroll "view the result of Infinity-Scroll") |
 | Joke-Teller | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#13](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/13 "visit pr \#13") | [/Grow-with-Open-Source/Javascript-Projects/Joke-Teller/](Joke-Teller "view the result of Joke-Teller") |
 | Timer-and-Stopwatch | [Sisir2311](https://github.com/Sisir2311 "goto Sisir2311 profile") | [#7](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/7 "visit pr \#7"), [#8](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/8 "visit pr \#8") | [/Grow-with-Open-Source/Javascript-Projects/Timer-and-Stopwatch/](Timer-and-Stopwatch "view the result of Timer-and-Stopwatch") |
-| RetroDesign | [Sisir2311](https://github.com/Sisir2311 "goto Sisir2311 profile") | [#9](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/9 "visit pr \#9") | [/Grow-with-Open-Source/Javascript-Projects/RetroDesign/](RetroDesign "view the result of RetroDesign") |
+| RetroDesign | [Sisir2311](https://github.com/Sisir2311 "goto Sisir2311 profile") | [#9](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/9 "visit pr \#9"), [#10](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/10 "visit pr \#10") | [/Grow-with-Open-Source/Javascript-Projects/RetroDesign/](RetroDesign "view the result of RetroDesign") |
 <!-- TABLE ENDS -->
 
 </div>
