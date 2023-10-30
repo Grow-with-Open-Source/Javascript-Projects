@@ -43,5 +43,14 @@
       "12"
     ],
     "demo-path": "Infinity-Scroll"
+  },
+  "Joke-Teller": {
+    "contributor-name": [
+      "skyHunter-18"
+    ],
+    "pull-request-number": [
+      "13"
+    ],
+    "demo-path": "Joke-Teller"
   }
 }

@@ -14,6 +14,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | E-commerce website | [rahulch-1](https://github.com/rahulch-1 "goto rahulch-1 profile") | [#6](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/6 "visit pr \#6") | [/Grow-with-Open-Source/Javascript-Projects/E-commerce website/](E-commerce%20website "view the result of E-commerce website") |
 | quote-generator | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#11](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/11 "visit pr \#11") | [/Grow-with-Open-Source/Javascript-Projects/quote-generator/](quote-generator "view the result of quote-generator") |
 | Infinity-Scroll | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#12](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/12 "visit pr \#12") | [/Grow-with-Open-Source/Javascript-Projects/Infinity-Scroll/](Infinity-Scroll "view the result of Infinity-Scroll") |
+| Joke-Teller | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#13](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/13 "visit pr \#13") | [/Grow-with-Open-Source/Javascript-Projects/Joke-Teller/](Joke-Teller "view the result of Joke-Teller") |
 <!-- TABLE ENDS -->
 
 </div>
