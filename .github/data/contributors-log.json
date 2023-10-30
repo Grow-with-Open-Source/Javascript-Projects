@@ -72,5 +72,14 @@
       "10"
     ],
     "demo-path": "RetroDesign"
+  },
+  "Digital-Clock": {
+    "contributor-name": [
+      "skyHunter-18"
+    ],
+    "pull-request-number": [
+      "15"
+    ],
+    "demo-path": "Digital-Clock"
   }
 }
