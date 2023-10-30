@@ -62,5 +62,14 @@
       "8"
     ],
     "demo-path": "Timer-and-Stopwatch"
+  },
+  "RetroDesign": {
+    "contributor-name": [
+      "Sisir2311"
+    ],
+    "pull-request-number": [
+      "9"
+    ],
+    "demo-path": "RetroDesign"
   }
 }
