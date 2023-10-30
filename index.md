@@ -15,6 +15,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | quote-generator | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#11](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/11 "visit pr \#11") | [/Grow-with-Open-Source/Javascript-Projects/quote-generator/](quote-generator "view the result of quote-generator") |
 | Infinity-Scroll | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#12](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/12 "visit pr \#12") | [/Grow-with-Open-Source/Javascript-Projects/Infinity-Scroll/](Infinity-Scroll "view the result of Infinity-Scroll") |
 | Joke-Teller | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#13](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/13 "visit pr \#13") | [/Grow-with-Open-Source/Javascript-Projects/Joke-Teller/](Joke-Teller "view the result of Joke-Teller") |
+| Timer-and-Stopwatch | [Sisir2311](https://github.com/Sisir2311 "goto Sisir2311 profile") | [#7](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/7 "visit pr \#7") | [/Grow-with-Open-Source/Javascript-Projects/Timer-and-Stopwatch/](Timer-and-Stopwatch "view the result of Timer-and-Stopwatch") |
 <!-- TABLE ENDS -->
 
 </div>

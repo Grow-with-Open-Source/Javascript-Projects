@@ -52,5 +52,14 @@
       "13"
     ],
     "demo-path": "Joke-Teller"
+  },
+  "Timer-and-Stopwatch": {
+    "contributor-name": [
+      "Sisir2311"
+    ],
+    "pull-request-number": [
+      "7"
+    ],
+    "demo-path": "Timer-and-Stopwatch"
   }
 }
