@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer & Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "hd">
+        <div class="mid">
+             TIMER AND STOPWATCH
+         </div>
+         
+         <div class="switch">
+            <button class="totoggle" onclick="switcher()">SWITCH</button>
+            <p class = "ddoo" style="font-size: 20px; color: rgb(29, 51, 51); font-weight: bolder;">Click Switch to switch between Stopwatch and Timer</p>
+         </div>
+    </header>
+    <br>
+    <div class="full">
+        <div class="container" id="stopwatch">
+            <div class="timer">
+                <span id = "displayTime">00 : 00 : 00</span>
+            </div>
+            <div class="buttons">
+                <button id="start" onclick="watchStart()">Start</button>
+                <button id="pause" onclick = "watchStop()">Pause</button>
+                <button id="reset" onclick="watchReset()">Reset</button>
+            </div>
+        </div>
+        <div class="container" id="countdown">
+            <div class="timer">
+                <span id = "displayTime1">00 : 00 : 00</span>
+            </div>
+            <div class="buttons">
+                <button id="setTimer" onclick="getTime()">Set Timer</button>
+                <button id="start1" onclick="watchStart1()">Start</button>
+                <button id="pause1" onclick = "watchStop1()">Pause</button>
+                <button id="reset1" onclick="watchReset1()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <footer><p>Made by <a href="https://github.com/Sisir2311" >Sisir</a></p> </footer>
+    <script src="script.js"></script>
+</body>
+</html>
