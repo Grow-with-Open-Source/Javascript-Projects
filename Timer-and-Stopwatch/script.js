@@ -1,3 +1,4 @@
+// dom objects
 let tog = document.querySelector("switch");
 let stopp = document.getElementById("stopwatch");
 let timm = document.getElementById("countdown");
