@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(0, 128, 255),rgb(135, 206, 235));
+}
+.container{
+    background-color: aliceblue;
+    margin:10rem auto;
+    width:60%;
+    padding:2rem;
+}
+.addToDo,.removeChecked{
+    padding: 1rem;
+    background-image:linear-gradient(to right,rgb(0, 128, 255),rgb(135, 206, 235)) ;
+    border:none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+h1{
+    margin-top: 1rem;
+    text-align: center;
+}
+input{
+    border:2px solid rgba(97, 156, 7, 0.733);
+    border-radius: 4px;
+    padding:1rem;
+    width:90%;
+    margin:2rem auto;
+}
+.todo button{
+    border:none;
+    margin: 0 1rem 0 1rem;
+}
+.todo div{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo div:hover{
+    background-color:rgba(226, 220, 220, 0.929);
+}
+.count{
+    padding: 1rem;
+    background-color: aqua;
+    border:none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+input[type="checkbox"]{
+    width:auto;
+    margin-right:.5rem;
+    margin-left: .5rem;
+}
+
+  
