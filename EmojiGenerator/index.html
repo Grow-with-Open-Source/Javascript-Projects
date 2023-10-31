@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Generator</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: darkseagreen;
+        }
+        #emoji{
+            font-size: 15rem;
+            transition-duration: 200ms;
+            filter: grayscale(1);
+            cursor: pointer;
+        }
+        #emoji:hover{
+            filter: grayscale(0);
+        }
+    </style>
+    <div id="emoji">😃</div>
+    <script src="script.js"></script>
+</body>
+</html>
