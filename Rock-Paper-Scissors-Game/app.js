@@ -2,6 +2,10 @@ const computerChoiceDisplay = document.getElementById("computer-choice");
 const userChoiceDisplay = document.getElementById("user-choice");
 const resultDisplay = document.getElementById("winner");
 const possibleChoices = document.querySelectorAll(".button-container > img");
+const resetScoreElement = document.querySelector(".js-resetScore-button");
+resetScoreElement.addEventListener("click", () => {
+  resetScore();
+});
 
 let userChoice;
 let computerChoice;
