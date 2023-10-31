@@ -58,20 +58,36 @@
       "Sisir2311"
     ],
     "pull-request-number": [
-      "7",
-      "8"
+      "7"
     ],
     "demo-path": "Timer-and-Stopwatch"
+  },
+  "Unit-Converter": {
+    "contributor-name": [
+      "Sisir2311"
+    ],
+    "pull-request-number": [
+      "8"
+    ],
+    "demo-path": "Unit-Converter"
   },
   "RetroDesign": {
     "contributor-name": [
       "Sisir2311"
     ],
     "pull-request-number": [
-      "9",
-      "10"
+      "9"
     ],
     "demo-path": "RetroDesign"
+  },
+  "Anim-web": {
+    "contributor-name": [
+      "Sisir2311"
+    ],
+    "pull-request-number": [
+      "10"
+    ],
+    "demo-path": "Anim-web"
   },
   "Digital-Clock": {
     "contributor-name": [
