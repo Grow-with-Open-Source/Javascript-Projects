@@ -90,5 +90,14 @@
       "16"
     ],
     "demo-path": "EmojiGenerator"
+  },
+  "Auto Text Animation": {
+    "contributor-name": [
+      "urjabahad"
+    ],
+    "pull-request-number": [
+      "20"
+    ],
+    "demo-path": "Auto%20Text%20Animation"
   }
 }
