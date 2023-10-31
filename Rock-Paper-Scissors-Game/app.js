@@ -46,4 +46,11 @@ function getResult() {
     resultDisplay.innerHTML = `<img src="./public/computer.png" alt="Computer" style="width: 10%;">`;
     resultDisplay.className = "you-lose";
   }
+  if (result === "You win!") {
+    score.wins += 1;
+  } else if (result === "You lose!") {
+    score.losses += 1;
+  } else if (result === "It's a draw") {
+    score.ties += 1;
+  }
 }
