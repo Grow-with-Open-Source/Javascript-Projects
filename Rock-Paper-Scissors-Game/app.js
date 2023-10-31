@@ -60,3 +60,17 @@ function scoreElement() {
     ".js-score"
   ).innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}.`;
 }
+function resetScore() {
+  const message = document.querySelector(".js-confirmation-message");
+  message.innerHTML =
+    "Are you sure you want to reset the score?  <button class='js-yes-button message-button'>Yes</button> <button class='js-no-button message-button'>No</button>";
+  document.querySelector(".js-yes-button").addEventListener("click", () => {
+    (score.wins = 0), (score.losses = 0), (score.ties = 0);
+    localStorage.removeItem("score");
+    scoreElement();
+    message.innerHTML = "";
+  });
+  document.querySelector(".js-no-button").addEventListener("click", () => {
+    message.innerHTML = "";
+  });
+}
