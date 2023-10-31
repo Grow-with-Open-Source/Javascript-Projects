@@ -59,6 +59,10 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.resetScore {
+  width: 15%;
+  margin: 0 auto;
+}
 
 button:hover {
   background-color: #45a049;
