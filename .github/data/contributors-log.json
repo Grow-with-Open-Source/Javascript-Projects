@@ -99,5 +99,14 @@
       "20"
     ],
     "demo-path": "Auto%20Text%20Animation"
+  },
+  "Real Time Character Counter": {
+    "contributor-name": [
+      "urjabahad"
+    ],
+    "pull-request-number": [
+      "21"
+    ],
+    "demo-path": "Real%20Time%20Character%20Counter"
   }
 }

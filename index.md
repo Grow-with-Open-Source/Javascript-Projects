@@ -20,6 +20,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | Digital-Clock | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#15](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/15 "visit pr \#15") | [/Grow-with-Open-Source/Javascript-Projects/Digital-Clock/](Digital-Clock "view the result of Digital-Clock") |
 | EmojiGenerator | [urjabahad](https://github.com/urjabahad "goto urjabahad profile") | [#16](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/16 "visit pr \#16") | [/Grow-with-Open-Source/Javascript-Projects/EmojiGenerator/](EmojiGenerator "view the result of EmojiGenerator") |
 | Auto Text Animation | [urjabahad](https://github.com/urjabahad "goto urjabahad profile") | [#20](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/20 "visit pr \#20") | [/Grow-with-Open-Source/Javascript-Projects/Auto Text Animation/](Auto%20Text%20Animation "view the result of Auto Text Animation") |
+| Real Time Character Counter | [urjabahad](https://github.com/urjabahad "goto urjabahad profile") | [#21](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/21 "visit pr \#21") | [/Grow-with-Open-Source/Javascript-Projects/Real Time Character Counter/](Real%20Time%20Character%20Counter "view the result of Real Time Character Counter") |
 <!-- TABLE ENDS -->
 
 </div>
