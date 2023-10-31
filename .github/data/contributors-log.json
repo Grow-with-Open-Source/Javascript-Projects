@@ -81,5 +81,14 @@
       "15"
     ],
     "demo-path": "Digital-Clock"
+  },
+  "EmojiGenerator": {
+    "contributor-name": [
+      "urjabahad"
+    ],
+    "pull-request-number": [
+      "16"
+    ],
+    "demo-path": "EmojiGenerator"
   }
 }

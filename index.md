@@ -18,6 +18,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | Timer-and-Stopwatch | [Sisir2311](https://github.com/Sisir2311 "goto Sisir2311 profile") | [#7](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/7 "visit pr \#7"), [#8](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/8 "visit pr \#8") | [/Grow-with-Open-Source/Javascript-Projects/Timer-and-Stopwatch/](Timer-and-Stopwatch "view the result of Timer-and-Stopwatch") |
 | RetroDesign | [Sisir2311](https://github.com/Sisir2311 "goto Sisir2311 profile") | [#9](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/9 "visit pr \#9"), [#10](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/10 "visit pr \#10") | [/Grow-with-Open-Source/Javascript-Projects/RetroDesign/](RetroDesign "view the result of RetroDesign") |
 | Digital-Clock | [skyHunter-18](https://github.com/skyHunter-18 "goto skyHunter-18 profile") | [#15](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/15 "visit pr \#15") | [/Grow-with-Open-Source/Javascript-Projects/Digital-Clock/](Digital-Clock "view the result of Digital-Clock") |
+| EmojiGenerator | [urjabahad](https://github.com/urjabahad "goto urjabahad profile") | [#16](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/16 "visit pr \#16") | [/Grow-with-Open-Source/Javascript-Projects/EmojiGenerator/](EmojiGenerator "view the result of EmojiGenerator") |
 <!-- TABLE ENDS -->
 
 </div>
