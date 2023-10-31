@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: sandybrown;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            height: 100vh;
+        }
+
+        .container {
+            position: relative;
+            background-color: lightblue;
+            width: 400px;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 5px;
+            box-shadow: 5px 5px 2px black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .textarea {
+            width: calc(100% - 20px);
+            height: 100px;
+            font-size: 20px;
+            resize: none;
+            box-sizing: border-box;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 2px black;
+            margin-bottom: 20px;
+        }
+
+        .counter-container {
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% - 40px);
+            position: absolute;
+            bottom: 10px;
+        }
+
+        .counter-container p {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .total-counter {
+            color: slateblue;
+        }
+
+        .remaining-counter {
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Real-Time Character Counter</h2>
+        <textarea id="textarea" class="textarea" placeholder="Please Write" maxlength="80"></textarea>
+        <div class="counter-container">
+            <p>
+                Total:
+                <span class="total-counter" id="total-counter">0</span>
+            </p>
+            <p>
+                Remaining:
+                <span class="remaining-counter" id="remaining-counter">80</span>
+            </p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
