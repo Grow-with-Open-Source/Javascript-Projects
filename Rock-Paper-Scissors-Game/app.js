@@ -53,4 +53,10 @@ function getResult() {
   } else if (result === "It's a draw") {
     score.ties += 1;
   }
+  scoreElement();
+}
+function scoreElement() {
+  document.querySelector(
+    ".js-score"
+  ).innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}.`;
 }
