@@ -19,7 +19,7 @@
 
 </div>
 
-Welcome to **Javascript-Projects**, one of the best ways to introduce the world of open-source contribution! Whether you're a beginner looking to take your first steps or an intermediate developer seeking to refine your skills, this repository is designed to make your journey into open-source development. This repo will provide you with the best hands-on understanding of open source contributions.
+Welcome to **Javascript-Projects**, one of the best ways to introduce the world of open-source contribution! Whether you're a beginner looking to take your first steps or an intermediate developer seeking to refine your skills, this repository is designed to make your journey into open-source development. This repo will provide you with best hands-on understanding of open source contributions.
 
 
 Our mission is to empower newcomers, providing them with a welcoming environment to learn and grow in the open-source community** offers a curated collection of JavaScript-based projects that are both fun to work on and highly educational. Through hands-on experience and guidance from our dedicated team of maintainers, you'll gain the skills and confidence to contribute to larger projects with ease. We can't wait to see what you'll bring to the open-source table – so dive in, explore, and start your open-source adventure today!
@@ -30,7 +30,7 @@ All your work details, including the path to your work, will be displayed on the
 
 ## Contribution
 
-Hey there, fellow developer !!!... I'm happy to see that you are interested in contributing to this repo. As this is an open-source repo containing a collection of javascript-based projects, you're always welcome to showcase your learning & implementation efforts. Since the projects are built using JavaScript, you can design static web pages *(i.e., simple HTML pages with or without CSS)* to showcase your project functionality that is hosted using GitHub Pages. As your work is being hosted live, we expect you to make some quality contributions so that others can learn and appreciate your work.
+Hey there, fellow developer !!!... I'm happy to see you are interested in contributing to this repo. As this is an open-source repo containing a collection of javascript-based projects, you're always welcome to showcase your learning & implementation efforts. Since the projects are built using JavaScript, you can design static web pages *(i.e., simple HTML pages with or without CSS)* to showcase your project functionality that is hosted using GitHub Pages. As your work is being hosted live, we expect you to make some quality contributions so that others can learn and appreciate your work.
 
 > [!IMPORTANT]
 > Make sure to check the [CONTRIBUTING.md](https://github.com/Grow-with-Open-Source/Javascript-Projects/blob/main/CONTRIBUTING.md "goto CONTRIBUTING.md") to understand the rules, file structure and step-by-step guide for contribution.
