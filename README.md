@@ -20,7 +20,6 @@
 </div>
 
 Welcome to **Javascript-Projects**, one of the best ways to introduce the world of open-source contribution! Whether you're a beginner looking to take your first steps or an intermediate developer seeking to refine your skills, this repository is designed to make your journey into open-source development. This repo will provide you with best hands-on understanding of open source contributions.
-
 Our mission is to empower newcomers, providing them with a welcoming environment to learn and grow in the open-source community** offers a curated collection of JavaScript-based projects that are both fun to work on and highly educational. Through hands-on experience and guidance from our dedicated team of maintainers, you'll gain the skills and confidence to contribute to larger projects with ease. We can't wait to see what you'll bring to the open-source table – so dive in, explore, and start your open-source adventure today!
 
 [![page-cover](assets/img/page-cover.png)](https://grow-with-open-source.github.io/Javascript-Projects/)
