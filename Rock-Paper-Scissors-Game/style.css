@@ -1,8 +1,8 @@
 body {
-  background-color: #eec6c6; 
-  font-family: 'Arial', sans-serif;
+  background-color: #eec6c6;
+  font-family: "Arial", sans-serif;
   text-align: center;
-  background-image: linear-gradient(to bottom, #f9b4c2, #ffdb86); 
+  background-image: linear-gradient(to bottom, #f9b4c2, #ffdb86);
   color: #ffffff;
   position: relative;
   min-height: 91.5vh;
@@ -13,16 +13,19 @@ body {
 }
 
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(ellipse at center, rgba(246, 231, 231, 0.813) 0%, rgba(0,0,0,0.9) 100%);
+  background-image: radial-gradient(
+    ellipse at center,
+    rgba(246, 231, 231, 0.813) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
   z-index: -1;
 }
-
 
 h1 {
   font-size: 36px;
@@ -31,7 +34,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 {
+h2,
+.score {
   color: #ffffff;
   font-size: 24px;
   font-weight: bold;
@@ -55,7 +59,10 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
+.resetScore {
+  width: 15%;
+  margin: 0 auto;
+}
 button:hover {
   background-color: #45a049;
 }
@@ -74,7 +81,6 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  
 }
 
 .button-container > button {
@@ -144,15 +150,13 @@ nav {
   font-size: 18px;
 }
 
-
-.button-container>img{
+.button-container > img {
   width: 10%;
   margin: 0 10px;
   cursor: pointer;
-
 }
 
-.logo{
+.logo {
   width: 20%;
 }
 
@@ -166,10 +170,12 @@ footer {
   width: 98.7%;
 }
 
-#Rock , #Paper, #Scissors{
+#Rock,
+#Paper,
+#Scissors {
   margin: 5%;
-} 
+}
 
-#winner{
+#winner {
   width: 5px;
 }
