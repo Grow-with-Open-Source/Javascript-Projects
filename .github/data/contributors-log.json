@@ -10,10 +10,12 @@
   },
   "Rock-Paper-Scissors-Game": {
     "contributor-name": [
-      "gauravbhaskar080"
+      "gauravbhaskar080",
+      "HeemahMuslad"
     ],
     "pull-request-number": [
-      "4"
+      "4",
+      "25"
     ],
     "demo-path": "Rock-Paper-Scissors-Game"
   },
