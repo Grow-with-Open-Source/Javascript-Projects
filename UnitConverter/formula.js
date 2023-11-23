@@ -934,15 +934,15 @@ const convertionTerms = {
             'atomic-mass-unit': 1.204427330335e+23
         },
         'atomic-mass-unit': {
-            kilogram: 1.6605401999999998e-27,
-            gram: 1.6605401999999998e-24,
-            milligram: 1.6605401999999998e-21,
-            'metric-ton': 1.6605401999999998e-30,
-            'long-ton': 1.6330034499999998e-30,
-            'short-ton': 1.8307141999999998e-30,
-            pound: 3.6607143999999996e-30,
-            ounce: 5.857143039999999e-29,
-            carrat: 8.301080399999999e-24,
+            kilogram: 1.66054019e-27,
+            gram: 1.66054019e-24,
+            milligram: 1.66054019e-21,
+            'metric-ton': 1.66054019e-30,
+            'long-ton': 1.633003449e-30,
+            'short-ton': 1.83071419e-30,
+            pound: 3.66071439e-30,
+            ounce: 5.857143039e-29,
+            carrat: 8.30108039e-24,
             'atomic-mass-unit': 1
         }
     },
