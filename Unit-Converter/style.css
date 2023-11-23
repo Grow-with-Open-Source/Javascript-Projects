@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    width: 60vw;
+    border: 10px solid rgb(0, 0, 0);
+    flex-direction: column;
+    margin: auto;
+    border-radius: 15px;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(img.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.navbar{
+    display: flex;
+    padding-top: 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.select{
+    background-color: #326048; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #19221d;
+}
+.display{
+    font-size: 50px;
+    padding-top: 35px;
+}
+#temp,
+#area,
+#volume,
+#weight,
+#time {
+    display: none;
+}
+.box{
+    width: 100%;
+}
+.display-box{
+    display: flex;
+    justify-content: space-around;
+}
+.input-output-textbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.from,.to{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.forall{
+    width: 200px;
+    font-size: large;
+}

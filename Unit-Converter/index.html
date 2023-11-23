@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Unit Converter</h1>
+    </header>
+    <div class="container">
+        <div class="navbar">
+            <button class="select" data-target="length" onclick="a1()">Length</button>
+            <button  class="select" data-target="temp" onclick="a2()">Temperature</button>
+            <button class="select"  data-target="area" onclick="a3()">Area</button>
+            <button  class="select" data-target="volume" onclick="a4()">Volume</button>
+            <button  class="select" data-target="weight" onclick="a5()">Weight</button>
+            <button  class="select" data-target="time" onclick="a6()">Time</button>
+        </div>
+        <div class="display">
+            Length
+        </div>
+        <div class="box">
+            <div class="display-box" id="length">
+                <div class="from">
+                    <label for="from-length-units">From:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="from-length-units" name="from-length-units">
+                            <option value="" selected disabled hidden>Select length unit</option>
+                            <option value="meter">Meter</option>
+                            <option value="kilometer">Kilometer</option>
+                            <option value="centimeter">Centimeter</option>
+                            <option value="millimeter">Millimeter</option>
+                            <option value="micrometer">Micrometer</option>
+                            <option value="nanometer">Nanometer</option>
+                            <option value="mile">Mile</option>
+                            <option value="yard">Yard</option>
+                            <option value="foot">Foot</option>
+                            <option value="inch">Inch</option>
+                            <option value="light-year">Light Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <label for="to-length-units">To:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="to-length-units" name="to-length-units">
+                            <option value="" selected disabled hidden>Select length unit</option>
+                            <option value="meter">Meter</option>
+                            <option value="kilometer">Kilometer</option>
+                            <option value="centimeter">Centimeter</option>
+                            <option value="millimeter">Millimeter</option>
+                            <option value="micrometer">Micrometer</option>
+                            <option value="nanometer">Nanometer</option>
+                            <option value="mile">Mile</option>
+                            <option value="yard">Yard</option>
+                            <option value="foot">Foot</option>
+                            <option value="inch">Inch</option>
+                            <option value="light-year">Light Year</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Temperature Unit Converter -->
+            <div class="display-box" id="temp">
+                <div class="from">
+                    <label for="from-temp-units">From:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="from-temp-units" name="from-temp-units">
+                            <option value="" selected disabled hidden>Select Temperature unit</option>
+                            <option value="celsius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <label for="to-temp-units">To:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="to-temp-units" name="to-temp-units">
+                            <option value="" selected disabled hidden>Select Temperature unit</option>
+                            <option value="celsius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Area Unit Converter -->
+            <div class="display-box" id="area">
+                <div class="from">
+                    <label for="from-area-units">From:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="from-area-units" name="from-area-units">
+                            <option value="" selected disabled hidden>Select Area unit</option>
+                            <option value="square-meter">Square Meter</option>
+                            <option value="square-kilometer">Square Kilometer</option>
+                            <option value="square-centimeter">Sqaure Centimeter</option>
+                            <option value="square-millimeter">Sqaure Millimeter</option>
+                            <option value="square-micrometer">Sqaure Micrometer</option>
+                            <option value="hectare">Hectare</option>
+                            <option value="square-mile">Square Mile</option>
+                            <option value="square-yard">Square Yard</option>
+                            <option value="square-foot">Square Foot</option>
+                            <option value="square-inch">Square Inch</option>
+                            <option value="acre">Acre</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <label for="to-area-units">To:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="to-area-units" name="to-area-units">
+                            <option value="" selected disabled hidden>Select Area unit</option>
+                            <option value="square-meter">Square Meter</option>
+                            <option value="square-kilometer">Square Kilometer</option>
+                            <option value="square-centimeter">Sqaure Centimeter</option>
+                            <option value="square-millimeter">Sqaure Millimeter</option>
+                            <option value="square-micrometer">Sqaure Micrometer</option>
+                            <option value="hectare">Hectare</option>
+                            <option value="square-mile">Square Mile</option>
+                            <option value="square-yard">Square Yard</option>
+                            <option value="square-foot">Square Foot</option>
+                            <option value="square-inch">Square Inch</option>
+                            <option value="acre">Acre</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Volume Unit Converter -->
+            <div class="display-box" id="volume">
+                <div class="from">
+                    <label for="from-volume-units">From:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="from-volume-units" name="from-volume-units">
+                            <option value="" selected disabled hidden>Select Volume unit</option>
+                            <option value="cubic-meter">Cubic Meter</option>
+                            <option value="cubic-kilometer">Cubic Kilometer</option>
+                            <option value="cubic-millimeter">Cubic Millimeter</option>
+                            <option value="liter">Liter</option>
+                            <option value="milliliter">Milliliter</option>
+                            <option value="us-gallon">US Gallon</option>
+                            <option value="us-quart">US Quart</option>
+                            <option value="us-pint">US Pint</option>
+                            <option value="us-cup">US Cup</option>
+                            <option value="us-fluid-ounce">US Fluid Ounce</option>
+                            <option value="us-tables-spoon">US Table Spoon</option>
+                            <option value="imperial-gallon">Imperial Gallon</option>
+                            <option value="imperial-quart">Imperial Quart</option>
+                            <option value="imperial-pint">Imperial Pint</option>
+                            <option value="imperial-fluid-ounce">Imperial Fluid Ounce</option>
+                            <option value="imperial-table-spoon">Imperial Table Spoon</option>
+                            <option value="imperial-tea-spoon">Imperial Tea Spoon</option>
+                            <option value="cubic-mile">Cubic Mile</option>
+                            <option value="cubic-yard">Cubic Yard</option>
+                            <option value="cubic-foot">Cubic Foot</option>
+                            <option value="cubic-inch">Cubic Inch</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <label for="to-volume-units">To:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="to-volume-units" name="to-volume-units">
+                            <option value="" selected disabled hidden>Select Volume unit</option>
+                            <option value="cubic-meter">Cubic Meter</option>
+                            <option value="cubic-kilometer">Cubic Kilometer</option>
+                            <option value="cubic-millimeter">Cubic Millimeter</option>
+                            <option value="liter">Liter</option>
+                            <option value="milliliter">Milliliter</option>
+                            <option value="us-gallon">US Gallon</option>
+                            <option value="us-quart">US Quart</option>
+                            <option value="us-pint">US Pint</option>
+                            <option value="us-cup">US Cup</option>
+                            <option value="us-fluid-ounce">US Fluid Ounce</option>
+                            <option value="us-table-spoon">US Table Spoon</option>
+                            <option value="imperial-gallon">Imperial Gallon</option>
+                            <option value="imperial-quart">Imperial Quart</option>
+                            <option value="imperial-pint">Imperial Pint</option>
+                            <option value="imperial-fluid-ounce">Imperial Fluid Ounce</option>
+                            <option value="imperial-table-spoon">Imperial Table Spoon</option>
+                            <option value="imperial-tea-spoon">Imperial Tea Spoon</option>
+                            <option value="cubic-mile">Cubic Mile</option>
+                            <option value="cubic-yard">Cubic Yard</option>
+                            <option value="cubic-foot">Cubic Foot</option>
+                            <option value="cubic-inch">Cubic Inch</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Weight/Mass Unit Converter -->
+            <div class="display-box" id="weight">
+                <div class="from">
+                    <label for="from-weight-units">From:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="from-weight-units" name="from-weight-units">
+                            <option value="" selected disabled hidden>Select Weight unit</option>
+                            <option value="kilogram">Kilogram</option>
+                            <option value="gram">Gram</option>
+                            <option value="milligram">Milligram</option>
+                            <option value="metric-ton">Metric Ton</option>
+                            <option value="long-ton">Long Ton</option>
+                            <option value="short-ton">Short Ton</option>
+                            <option value="pound">Pound</option>
+                            <option value="ounce">Ounce</option>
+                            <option value="carrat">Carrat</option>
+                            <option value="automic-mass-unit">Atomic Mass Unit</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <label for="to-weight-units">To:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="to-weight-units" name="to-weight-units">
+                            <option value="" selected disabled hidden>Select Weight unit</option>
+                            <option value="kilogram">Kilogram</option>
+                            <option value="gram">Gram</option>
+                            <option value="milligram">Milligram</option>
+                            <option value="metric-ton">Metric Ton</option>
+                            <option value="long-ton">Long Ton</option>
+                            <option value="short-ton">Short Ton</option>
+                            <option value="pound">Pound</option>
+                            <option value="ounce">Ounce</option>
+                            <option value="carrat">Carrat</option>
+                            <option value="automic-mass-unit">Atomic Mass Unit</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Time Unit Converter -->
+            <div class="display-box" id="time">
+                <div class="from">
+                    <label for="from-time-units">From:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="from-time-units" name="from-time-units">
+                            <option value="" selected disabled hidden>Select Time unit</option>
+                            <option value="seconds">Seconds</option>
+                            <option value="milliseconds">Milliseconds</option>
+                            <option value="microseconds">Microseconds</option>
+                            <option value="nanoseconds">Nanoseconds</option>
+                            <option value="picoseconds">Picoseconds</option>
+                            <option value="minute">Minute</option>
+                            <option value="hour">Hour</option>
+                            <option value="day">Day</option>
+                            <option value="week">Week</option>
+                            <option value="month">Month</option>
+                            <option value="year">Year</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                    </div>
+                </div>
+                <div class="to">
+                    <label for="to-time-units">To:</label>
+                    <div class="select-box">
+                        <select class = "forall" id="to-time-units" name="to-time-units">
+                            <option value="" selected disabled hidden>Select Time unit</option>
+                            <option value="seconds">Seconds</option>
+                            <option value="milliseconds">Milliseconds</option>
+                            <option value="microseconds">Microseconds</option>
+                            <option value="nanoseconds">Nanoseconds</option>
+                            <option value="picoseconds">Picoseconds</option>
+                            <option value="minute">Minute</option>
+                            <option value="hour">Hour</option>
+                            <option value="day">Day</option>
+                            <option value="week">Week</option>
+                            <option value="month">Month</option>
+                            <option value="year">Year</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="input-output-textbar">
+            <input class = "forall" type="number" name="from-value" id="from-value"  placeholder="Your value">
+            <input class = "forall" type="number" name="to-value" id="to-value"  placeholder="Output" disabled>
+        </div>
+    </div>
+        </div>
+    </div>
+    <script src="formula.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
