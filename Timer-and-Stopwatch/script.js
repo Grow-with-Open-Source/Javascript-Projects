@@ -1,4 +1,3 @@
-// dom objects
 let tog = document.querySelector("switch");
 let stopp = document.getElementById("stopwatch");
 let timm = document.getElementById("countdown");
@@ -6,7 +5,6 @@ let isVisible = 'stopwatch';
 let dp1 = document.getElementById("displayTime1");
 let timer1 = null;
 timm.style.display = 'none';
-
 function switcher(){
     if(isVisible === 'stopwatch'){
         stopp.style.display = 'none';

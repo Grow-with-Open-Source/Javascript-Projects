@@ -1,4 +1,3 @@
-// main javascript file
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
