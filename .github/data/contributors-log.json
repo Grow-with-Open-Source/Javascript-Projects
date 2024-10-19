@@ -137,5 +137,14 @@
       "24"
     ],
     "demo-path": "TodoList"
+  },
+  "{others}": {
+    "contributor-name": [
+      "iamwatchdogs"
+    ],
+    "pull-request-number": [
+      "28"
+    ],
+    "demo-path": "https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/.github"
   }
 }

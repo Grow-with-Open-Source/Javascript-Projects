@@ -24,6 +24,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | Auto Text Animation | [urjabahad](https://github.com/urjabahad "goto urjabahad profile") | [#20](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/20 "visit pr \#20") | [/Grow-with-Open-Source/Javascript-Projects/Auto Text Animation/](Auto%20Text%20Animation "view the result of Auto Text Animation") |
 | Real Time Character Counter | [urjabahad](https://github.com/urjabahad "goto urjabahad profile") | [#21](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/21 "visit pr \#21") | [/Grow-with-Open-Source/Javascript-Projects/Real Time Character Counter/](Real%20Time%20Character%20Counter "view the result of Real Time Character Counter") |
 | TodoList | [160121](https://github.com/160121 "goto 160121 profile") | [#24](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/24 "visit pr \#24") | [/Grow-with-Open-Source/Javascript-Projects/TodoList/](TodoList "view the result of TodoList") |
+| {others} | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#28](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/28 "visit pr \#28") | [/Grow-with-Open-Source/Javascript-Projects/.github](https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/.github "view the result of {others}") |
 <!-- TABLE ENDS -->
 
 </div>
