@@ -28,7 +28,7 @@ jobs:
     - name: Adding eslint configurations
       uses: DamianReeves/write-file-action@v1.2
       with:
-        path: .eslintrc.json
+        path: eslint.config.cjs
         write-mode: overwrite
         contents: |
           const js = require('@eslint/js');
