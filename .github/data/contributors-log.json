@@ -155,5 +155,14 @@
       "34"
     ],
     "demo-path": "Tourist"
+  },
+  "Blend-animation": {
+    "contributor-name": [
+      "Inija-2503"
+    ],
+    "pull-request-number": [
+      "35"
+    ],
+    "demo-path": "https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/Blend-animation"
   }
 }

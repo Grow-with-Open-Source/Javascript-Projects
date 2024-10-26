@@ -26,6 +26,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | TodoList | [160121](https://github.com/160121 "goto 160121 profile") | [#24](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/24 "visit pr \#24") | [/Grow-with-Open-Source/Javascript-Projects/TodoList/](TodoList "view the result of TodoList") |
 | {others} | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#28](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/28 "visit pr \#28") | [/Grow-with-Open-Source/Javascript-Projects/.github](https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/.github "view the result of {others}") |
 | Tourist | [Inija-2503](https://github.com/Inija-2503 "goto Inija-2503 profile") | [#34](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/34 "visit pr \#34") | [/Grow-with-Open-Source/Javascript-Projects/Tourist/](Tourist "view the result of Tourist") |
+| Blend-animation | [Inija-2503](https://github.com/Inija-2503 "goto Inija-2503 profile") | [#35](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/35 "visit pr \#35") | [/Grow-with-Open-Source/Javascript-Projects/Blend-animation/](https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/Blend-animation "view the result of Blend-animation") |
 <!-- TABLE ENDS -->
 
 </div>
