@@ -146,5 +146,14 @@
       "28"
     ],
     "demo-path": "https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/.github"
+  },
+  "Tourist": {
+    "contributor-name": [
+      "Inija-2503"
+    ],
+    "pull-request-number": [
+      "34"
+    ],
+    "demo-path": "Tourist"
   }
 }
