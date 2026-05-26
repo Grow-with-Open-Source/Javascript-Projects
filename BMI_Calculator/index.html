@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./BMI.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <main
+        class=" Glassmorphism w-[90%] md:w-[50%] fixed left-[50%] top-[50%]  translate-[-50%] border border-gray-700 rounded-xl p-6 ">
+        <h1 class="text-gray-800 text-2xl text-center my-2">Check Your BMI (Body Mass Index)</h1>
+        <div class="inputSection flex flex-col gap-4 items-center justify-center">
+            <label for="weight" class="">Enter Weight in KG:</label>
+            <input type="number" id="weight" placeholder="Your Weight" class="border border-gray-600 p-3 rounded-2xl">
+            <label for="height">Enter Your Height in Meter</label>
+            <input type="number" id="height" placeholder="Your Height" class="border border-gray-600 p-3 rounded-2xl">
+            <button id="Calculate"
+                class="px-4 py-2 font-semibold bg-amber-500 rounded-xl hover:bg-green-600 hover:text-gray-400 hover:scale-110 transition-all duration-300 ease-in-out">Calculate</button>
+
+        </div>
+        <div class="your_BMI text-xl">
+            <h2 class="text-xl hidden">Your BMI is: <span class="BMI_Result"></span></h2>
+            <div class="underWeight hidden">
+                <span>You are <strong class="text-gray-500">Under Weight</strong></span>
+            </div>
+            <div class="perfect hidden">
+                <span>You are <strong class="text-green-800">Perfect</strong></span>
+            </div>
+            <div class="overWeight hidden">
+                <span>You are <strong class="text-yellow-400">Over Weight</strong></span>
+            </div>
+            <div class="obese hidden">
+                <span>You are <strong class="text-red-800">Obses or too much Weight</strong></span>
+            </div>
+            <!-- BMI < 18.5 → Underweight 18.5 - 24.9 → Normal ✅ 25 - 29.9 → Overweight 30+ → Obese  -->
+        </div>
+        <!-- 
+4. Obese (BMI ≥ 30.0)
+ -->
+        <div class="BMI_Summery">
+            <div class="conUnder hidden">
+                <h1 class="text-center text-gray-700 text-2xl font-semibold">Risks & Health Impacts</h1>
+                <p class="text-gray-800 text-justify p-2 m-1">
+                    Being underweight means your body weight is lower than what is considered healthy for your height.
+                    This can lead to nutritional deficiencies, a weakened immune system (making it harder to fight off
+                    infections), chronic fatigue, anemia, hair loss, and fragile bones (osteoporosis).</p>
+                <ul class="list-disc">
+                    <h2 class="text-xl text-green-600 font-semibold text-center my-3">What to Do</h2>
+                    <li>
+                        Increase Calorie Intake: Focus on nutrient-dense, high-calorie foods such as nuts, seeds,
+                        cheese, milk, eggs, avocados, and dried fruits.
+                    </li>
+                    <li>
+                        Eat More Frequently: Instead of three large meals, try to eat 5–6 smaller meals and healthy
+                        snacks throughout the day.
+                    </li>
+                    <li>
+                        Build Muscle Mass: Incorporate light strength training or weight lifting into your routine to
+                        gain healthy muscle weight rather than just fat.</li>
+                </ul>
+            </div>
+            <div class="conPerfect hidden">
+                <h1 class="text-center text-gray-700 text-2xl font-semibold">Congratulations! 🎉</h1>
+                <p class="text-gray-800 text-justify p-2 m-1">
+                    Your BMI is within the ideal and healthy range. This indicates that your weight is perfectly
+                    balanced with your height. Maintaining a normal weight significantly reduces your risk of developing
+                    chronic conditions like heart disease, type 2 diabetes, and high blood pressure. Your body is in a
+                    great shape!</p>
+                <ul class="list-disc">
+                    <h2 class="text-xl text-green-600 font-semibold text-center my-3">What to Do</h2>
+                    <li>
+                        Stay Consistent: Keep following a balanced diet rich in whole grains, lean proteins, fruits, and
+                        vegetables.
+                    </li>
+
+                    <li>
+                        Stay Active: Maintain at least 30 minutes of moderate physical activity, such as brisk walking,
+                        cycling, or swimming, daily.
+                    </li>
+
+                    <li>
+                        Prioritize Wellness: Ensure you get 7–8 hours of quality sleep and stay well-hydrated throughout
+                        the day.</li>
+                </ul>
+            </div>
+            <div class="conOver hidden">
+                <h1 class="text-center text-gray-700 text-2xl font-semibold"> Risks & Health Impacts</h1>
+                <p class="text-gray-800 text-justify p-2 m-1">
+                    Falling into this range means you are carrying excess body weight, which serves as an early warning
+                    sign. If not managed, it increases the workload on your heart and raises the risk of developing type
+                    2 diabetes, high blood pressure, fatty liver disease, and high cholesterol.
+                </p>
+
+                <ul class="list-disc">
+                    <h2 class="text-xl text-green-600 font-semibold text-center my-3">What to Do</h2>
+                    <li>
+                        Portion Control: Reduce your intake of refined carbohydrates (like white rice and bread) and
+                        sugars. Increase your intake of fiber (vegetables, salads) and protein.
+                    </li>
+
+                    <li>
+                        Regular Exercise: Aim for at least 150 minutes of moderate-intensity aerobic exercise, like fast
+                        walking or jogging, per week.
+                    </li>
+
+                    <li>
+                        Cut Out Junk Food: Limit processed foods, sugary beverages, and deep-fried items from your daily
+                        diet.</li>
+                </ul>
+            </div>
+            <div class="conObses hidden">
+                <h1 class="text-center text-gray-700 text-2xl font-semibold">Risks & Health Impacts</h1>
+                <p class="text-gray-800 text-justify p-2 m-1">
+                    A BMI of 30 or higher indicates obesity, which is a serious medical condition. It drastically
+                    increases the risk of severe health issues, including coronary heart disease, stroke, sleep apnea
+                    (breathing stops temporarily during sleep), severe joint and knee pain, and certain types of chronic
+                    illnesses.
+                </p>
+
+                <ul class="list-disc">
+                    <li>
+                        Consult a Professional: It is highly recommended to seek guidance from a doctor or a registered
+                        dietitian for a personalized, safe weight-loss plan.
+                    </li>
+
+                    <li>
+                        Structured Lifestyle Change: Treat weight loss as a long-term commitment. Eliminate sugary
+                        treats, fast food, and high-calorie snacks completely.
+                    </li>
+
+                    <li>
+                        Cardio & Consistency: Engage in regular fat-burning exercises like cycling, swimming, or
+                        running.
+                        Remember, consistency is key; even a small, steady weight loss can greatly improve your health.
+
+                    </li>
+                </ul>
+            </div>
+            <button
+                class=" resetBtn hidden w-[95%] py-2 m-4 rounded-xl bg-amber-400 hover:bg-red-600 hover:text-gray-200 hover:scale-110 transition-all duration-300 ease-in-out">Again</button>
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
