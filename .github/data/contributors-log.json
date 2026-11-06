@@ -173,5 +173,14 @@
       "36"
     ],
     "demo-path": "Darkmode-website"
+  },
+  "password-generator": {
+    "contributor-name": [
+      "HariP-git"
+    ],
+    "pull-request-number": [
+      "41"
+    ],
+    "demo-path": "password-generator"
   }
 }

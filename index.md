@@ -28,6 +28,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | Tourist | [Inija-2503](https://github.com/Inija-2503 "goto Inija-2503 profile") | [#34](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/34 "visit pr \#34") | [/Grow-with-Open-Source/Javascript-Projects/Tourist/](Tourist "view the result of Tourist") |
 | Blend-animation | [Inija-2503](https://github.com/Inija-2503 "goto Inija-2503 profile") | [#35](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/35 "visit pr \#35") | [/Grow-with-Open-Source/Javascript-Projects/Blend-animation/](https://github.com/Grow-with-Open-Source/Javascript-Projects/tree/main/Blend-animation "view the result of Blend-animation") |
 | Darkmode-website | [Inija-2503](https://github.com/Inija-2503 "goto Inija-2503 profile") | [#36](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/36 "visit pr \#36") | [/Grow-with-Open-Source/Javascript-Projects/Darkmode-website/](Darkmode-website "view the result of Darkmode-website") |
+| password-generator | [HariP-git](https://github.com/HariP-git "goto HariP-git profile") | [#41](https://github.com/Grow-with-Open-Source/Javascript-Projects/pull/41 "visit pr \#41") | [/Grow-with-Open-Source/Javascript-Projects/password-generator/](password-generator "view the result of password-generator") |
 <!-- TABLE ENDS -->
 
 </div>
