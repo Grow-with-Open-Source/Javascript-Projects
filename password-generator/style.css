@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.password-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.password-box input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.password-box button {
+    padding: 12px 16px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.option {
+    margin-bottom: 15px;
+}
+
+.option label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.strength {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#strength {
+    color: green;
+}
+
+.generate {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.generate:hover {
+    background: #1d4ed8;
+}
+
+.password-box button:hover {
+    background: #111;
+}
